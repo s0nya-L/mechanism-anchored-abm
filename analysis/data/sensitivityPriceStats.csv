@@ -1,0 +1,7 @@
+Decay_Rate,Group,Mean,Median,STDEV,CV (%)
+High Urgency (10% Decay),1,101.19,105,11.37,11.23
+High Urgency (10% Decay),2,66.6,55,22.15,33.26
+Base (5% Decay),1,102,105,11.43,11.21
+Base (5% Decay),2,67.8,55,22.8,33.62
+Low Urgency (1% Decay),1,102.03,105,10.4,10.19
+Low Urgency (1% Decay),2,68.76,55,23.63,34.36

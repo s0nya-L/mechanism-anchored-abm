@@ -1,0 +1,4 @@
+Decay_Rate,G1_Successes,G2_Successes,Chi2,P_value,Significant
+High Urgency (10% Decay),308,399,27.887,0.0,Yes
+Base (5% Decay),315,400,24.417,0.0,Yes
+Low Urgency (1% Decay),357,419,13.571,0.00023,Yes
