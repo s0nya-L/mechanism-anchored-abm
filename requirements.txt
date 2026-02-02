@@ -9,3 +9,4 @@ protobuf>=4.24,<5.0
 typing_extensions>=4.8,<5.0
 filelock>=3.12,<4.0
 python-dotenv>=1.0,<2.0
+openai>=1.0,<2.0
