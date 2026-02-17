@@ -11,7 +11,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv('API_KEY'), base_url="https://api.siliconflow.cn/")
 
 CONSTRUCTS = {
-    'Common Knowledge': [
+    'Mutual Knowledge': [
         'We all know that', 'As we agreed', 'It is clear that', 'Obviously', 'Everyone understands',
         'Shared understanding', 'Mutual awareness', 'Common ground', 'We both know', 'It is evident that'
     ],
@@ -72,7 +72,7 @@ def create_prompt(negotiation_text):
 
 Theoretical Constructs and their indicators:
 
-1. Common Knowledge (Aumann, 1976):
+1. Mutual Knowledge (Schiffer, 1972):
    - Indicators: Explicit statements that assume shared understanding, repeated confirmations, or tactics that rely on mutual awareness
    - Examples: "We all know that...", "As we agreed...", "It is clear that..."
 
@@ -100,10 +100,10 @@ For each construct found, provide:
 
 Return your response in the following JSON format:
 {{
-  "Common Knowledge": [
+  "Mutual Knowledge": [
     {{
       "text": "specific text",
-      "explanation": "why this demonstrates common knowledge"
+      "explanation": "why this demonstrates mutual knowledge"
     }}
   ],
   "Loss Aversion": [
