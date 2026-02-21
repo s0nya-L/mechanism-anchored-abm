@@ -1,5 +1,4 @@
-
-A Mechanism‑Anchored Validation Framework for LLM‑Based Generative Agent‑Based Models
+A Mechanism‑Anchored Framework for Interpretable LLM‑Driven Generative Agent‑Based Modelling
 
 This repository contains the code and materials supporting the manuscript currently in preparation.  
 A complete README, documentation, and citation information will be added upon preprint release or publication.
